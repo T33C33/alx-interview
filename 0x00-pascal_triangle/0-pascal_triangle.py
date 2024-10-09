@@ -2,12 +2,14 @@
 """
 This module provides a function to generate Pascal's triangle.
 
-Pascal's triangle is a triangular array of the binomial coefficients. 
-Each row represents the coefficients in the expansion of a binomial raised to successive powers.
+Pascal's triangle is a triangular array of the binomial coefficients.
+Each row represents the coefficients 
+in the expansion of a binomial raised to successive powers.
 
 Functions:
     pascal_triangle(n): Generates Pascal's triangle up to the nth row.
 """
+
 
 def pascal_triangle(n):
     """
@@ -17,7 +19,7 @@ def pascal_triangle(n):
     Returns:
         List[List[int]]: A list of lists representing Pascal's triangle.
     """
-    
+
     # edge case
     if n <= 0:
         return []
