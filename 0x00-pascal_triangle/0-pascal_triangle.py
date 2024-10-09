@@ -3,7 +3,7 @@
 This module provides a function to generate Pascal's triangle.
 
 Pascal's triangle is a triangular array of the binomial coefficients.
-Each row represents the coefficients 
+Each row represents the coefficients
 in the expansion of a binomial raised to successive powers.
 
 Functions:
