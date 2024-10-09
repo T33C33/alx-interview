@@ -10,6 +10,14 @@ Functions:
 """
 
 def pascal_triangle(n):
+    """
+    Generate Pascal's triangle up to the nth row.
+    Args:
+        n (int): The number of rows of Pascal's triangle to generate.
+    Returns:
+        List[List[int]]: A list of lists representing Pascal's triangle.
+    """
+    
     # edge case
     if n <= 0:
         return []
