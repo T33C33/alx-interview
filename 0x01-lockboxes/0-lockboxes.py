@@ -3,6 +3,7 @@
 summary: Determines if all boxes can be unlocked.
 """
 
+
 def canUnlockAll(boxes):
     """
     Module: 0-lockboxes
