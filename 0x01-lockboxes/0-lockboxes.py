@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+summary: Determines if all boxes can be unlocked.
+"""
 
 def canUnlockAll(boxes):
     """
