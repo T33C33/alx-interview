@@ -3,6 +3,7 @@
 Main file for testing
 """
 
+
 def minOperations(n):
     """_summary_
 
@@ -12,7 +13,6 @@ def minOperations(n):
     Returns:
         _type_: _description_
     """
-
 
     if n < 2:
         return 0
