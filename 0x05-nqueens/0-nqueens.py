@@ -41,11 +41,7 @@ def solve_nqueens(N):
             # If all queens are placed, add solution
             solutions.append([[i, board[i]] for i in range(N)])
             return
-        for col in range(N):
-            if is_safe(row, col):
-                board[row] = col
-                place_queens(row + 1)
-                board[row] = -1  # Backtrack
+        
 
     place_queens(0)
     return solutions
