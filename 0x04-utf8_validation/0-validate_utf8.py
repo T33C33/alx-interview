@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 '''
-This module provides a function to validate if a list of integers represents a valid UTF-8 encoding.
+function to validate if a list of integers represents a valid UTF-8 encoding.
 
 Functions:
-    validUTF8(data): Checks if a list of integers represents a valid UTF-8 encoding.
+    validUTF8(data): Checks list of integers for valid UTF-8 encoding.
 '''
+
 
 def validUTF8(data):
     """
